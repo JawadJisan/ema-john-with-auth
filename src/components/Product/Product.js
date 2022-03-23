@@ -3,8 +3,6 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Product.css'
 
-const handleAdd = () =>{console.log('fasf')}
-<button onClick={()=>handleAdd()}></button>
 
 const Product = (props) => {
     // console.log(props)
