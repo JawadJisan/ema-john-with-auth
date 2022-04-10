@@ -1,18 +1,21 @@
 .header{
+    background-color: #5c5c5c;
     height: 80px;
-    background-color: #1C2B35;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
-}
-.header a{
-    color:#FFFFFF;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left: 36px;
-}
-.header a:hover{
-    color: orange;
+    /* justify-content: center; */
+    /* position: sticky; */
+    padding: 0 100px;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 70px;
+  }
+  
+.header h1 {
+    margin-left: 15px;
+    font-size: 40px;
+    color: white;
+    font-family: "Metamorphous", cursive;
+  
 }
